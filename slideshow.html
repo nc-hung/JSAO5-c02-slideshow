@@ -2,20 +2,30 @@
 <html>
 
 <head>
-  <title>Demo Slideshow</title>
-  <link type="text/css" href="slideshow.css" rel="stylesheet">
-
+    <title>Demo Slideshow</title>
+    <link type="text/css" href="slideshow.css" rel="stylesheet">
+    <!-- <script src="./main.js"></script> -->
 </head>
 
 <body>
-  <div class="slideshow">
-    <img class="slides fade" src="anh1.jpg" style="width: 100%">
-    <img class="slides fade" src="anh2.jpg" style="width: 100%">
-    <img class="slides fade" src="anh3.jpg" style="width: 100%">
-    <a class="truoc" onclick="hienThiSlideTruocDo()">&#10094;</a>
-    <a class="sau" onclick="hienThiSlideKeTiep()">&#10095;</a>
-  </div>
-  <script type="text/javascript" src="slideshow.js"></script>
+    <div class="slideshow">
+        <div class="slideshow__items ">
+            <div class="item batHinh">
+                <img class="slides fade" src="anh1.jpg" style="width: 100%">
+            </div>
+            <div class="item">
+                <img class="slides fade" src="anh2.jpg" style="width: 100%">
+            </div>
+            <div class="item">
+                <img class="slides fade" src="anh3.jpg" style="width: 100%">
+            </div>
+        </div>
+
+        <a class="truoc" onclick="next2()">
+            < </a>
+                <a class="sau" onclick="next1()"> >   </a>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
 </body>
 
 </html>

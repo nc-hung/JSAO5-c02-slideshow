@@ -1,0 +1,9 @@
+chưa xem kĩ liên kết file
+gọi hàm nhưng không sử dụng cặp ngoặc tròn
+---------------------------------
+ý tưởng sau khi tham khảo:
+tắt hết tất cả các hình, vị trí nào = index sẽ được bật lên
+----------------------------------
+ý tưởng khác: 
+có thể sử dụng lại hàm viết ở bài dice
+mỗi khi sự kiện xảy ra sẽ cộng thêm index hoặc trừ đi tùy vào sự kiện
